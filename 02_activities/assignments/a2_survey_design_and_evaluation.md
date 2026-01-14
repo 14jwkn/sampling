@@ -40,30 +40,31 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the employee satisfaction factors contributing to the high turnover rate across many of the departments, specifically in entry- and lower-level positions. The company can use these results to design targeted interventions to improve employee satisfaction and reduce the turnover rate in these positions. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All entry- and lower-level employees within the company. 
+Sampling frame: The HR department database of entry- and lower-level employees within the company.
+Observational units: Each employee is an observational unit to be studied.
+Sampling units: Each employee is also an individual sampling unit as each employee is being sampled rather than groups.
+Sampling strategy: I’ll conduct stratified sampling by dividing employees into strata based on both the department and the more fine-grained position level within the entry- and lower-level positions, then random sampling within each stratum. This better ensures that the sample is representative of the target population, with the added benefits of convenience and lower cost. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How satisfied are you with your current position? Very Dissatisfied / Dissatisfied / Neutral / Satisfied / Very Satisfied
+2. How fair do you think your pay is in comparison to other companies? Very Unfair / Unfair / Neutral / Fair / Very Fair
+3. How supported do you feel in your position (e.g., by your supervisor, resources)? Not Supported / Somewhat Supported / Neutral / Adequately Supported / Very Supported
+4. How reasonable is your workload? Very Unreasonable / Somewhat Unreasonable / Neutral / Adequately Reasonable / Very Reasonable 
+5. How satisfied are you with the opportunities for advancement in your current position? Very Dissatisfied / Dissatisfied / Neutral / Satisfied / Very Satisfied
+6. What would be the single most important factor that might influence your decision to leave the company? Pay / Management / Workload / Growth Opportunities
+7. Are there any other factors that might influence your decision to leave the company beyond Pay, Management, Workload, and Growth Opportunities?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +72,31 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+Sample type: This was a stratified sample where each of the ten provinces were divided into 27 total strata by geographic area.
+
+Sample size: 16,149 respondents.
+
+Target population: Everyone 15 years of age and older in Canada excluding residents of the Yukon, Northwest Territories, and Nunavut and full-time residents of institutions.
+
+Sampling frame: List of telephone numbers in use (both landline and cellular) available to Statistics Canada (i.e., through telephone companies, census, etc) with the address register (i.e., list of all dwellings) used to group telephone numbers associated with the same address, though telephone numbers not linked to the address register were also included.
+
+Survey mode(s): Asked to complete an electronic questionnaire or respond to a telephone interview.
+Timeline: Collection was done from September to December 2018. Data was released on January 26, 2021.
+
+Response rate: Overall response rate was 41.9%.
+
+Weights: WGHT_PER refers to the basic weighting factor for analysis at the person level representing the number of people in the target population one respondent represents which accounts for errors in the telephone-address linking, out of scope records, non-response, adjustments for rejected respondents, stratum/geographic adjustment, income adjustment, and province/age/sex adjustment. WGHT_PER = 30,843,019, estimate of the number of persons aged 15 and over in the population. 500 bootstrap weights were also provided for variance estimates which is necessary because of the multi-stage survey design and calibration. 
+
+Data processing (e.g., cleaning, imputation, etc.): Data capture was done by either respondents inputting responses into electronic questionnaire or interviewer inputting the responses from interviews by telephone. To transform survey responses into a form suitable for tabulation and data analysis, processing was done. Coding was done for write-in responses which followed standard classification systems. Editing was done to identify and eliminate potential duplicate records, non-response records, and out-of-scope records. Records with missing or incorrect information were, in a small number of cases, corrected deterministically or imputed based on other information on the questionnaire. Several variables were derived by combining items on the questionnnaire to facilitate data analysis (e.g., combining related variables, collapsing categories). To preserve confidentiality, donation perturbation and rounding were done which generally has negligible impact on donation estimations, provided analysis does not involve small domains of estimation.
+
+Sources of error: Both sampling and non-sampling errors exist. Sampling errors reflect the difference between the sample and population because the sample only surveys a part of it, it can be quantified with statistical tools including bootstrapping. Non-sampling errors reflect the mistakes in analysis not due to the natural difference between the sample and population. A major source is non-response (e.g., did not understand, misinterpreted, refused to answer, could not remember). Otherwise, minor errors include interviewers misunderstanding instructions, answers being incorrectly being inputted, processing and tabulation mistakes, etc. which were guarded against by quality assurance measures at every step.
+
+Limitations, known biases, etc: Errors can contribute to bias, specifically here the major error is non-response where non-respondents might be systematically different from respondents in some way leading to non-representative estimates of the target population, though they try to adjust for it. Furthermore, there might be a difference between electronic questionnaire versus the interview due to multiple factors (e.g.,  social desirability bias where respondents might respond in a way that seeks approval from the interviewer). In regard to limitations, these results might not be applicable to those under 15 and those in excluded territories due to how the target population was defined. Furthermore, it seems the 2018 update changed several things about the survey so results might not be comparable to previous years.
+
+Link to documentation and any additional sources used:
+Documentation: https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip 
+Release Date: https://www150.statcan.gc.ca/n1/en/catalogue/452500112021001 
+
 ```
 
 ## Rubric
